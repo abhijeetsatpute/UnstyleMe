@@ -5,13 +5,10 @@ body {
 }
 
 .btn-group-vertical{
+    position: fixed;
     margin-top: 10px;
     margin-right: 20px !important;
 }
 .btn-group-vertical #closebtn:hover{
     background-color: red;
-}
-
-.myblock{
-    border: 2px solid black;
 }
