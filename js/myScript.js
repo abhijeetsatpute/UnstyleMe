@@ -25,3 +25,15 @@ btnBg1.addEventListener("click",changeBackground1);
 whiteBtn.addEventListener("click",whiteBackground);
 closebtn.addEventListener("click",closeWindow);
 
+
+function unloadImage(index){
+    document.getElementsByTagName("img")[index].setAttribute("src","./images/empty.jpg");
+}
+function loadImage(index){
+    document.getElementsByTagName("img")[index].setAttribute("src","./images/"+index+".jpg");
+}
+
+function update(jscolor,index) {
+    // 'jscolor' instance can be used as a string
+    document.getElementsByClassName('card-body')[index].style.backgroundColor = '#' + jscolor
+}

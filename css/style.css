@@ -1,14 +1,21 @@
 body {
+    margin: 0px;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
 
-.btn-group-vertical{
-    position: fixed;
-    margin-top: 10px;
-    margin-right: 20px !important;
+.btn-group{
 }
-.btn-group-vertical #closebtn:hover{
+.btn-group #closebtn:hover{
     background-color: red;
+}
+.btn-group #changeBg1:hover{
+    background-color: green;
+}
+.btn-group #whiteBg:hover{
+    background-color: grey;
+}
+#top-btns{
+    width: 100%;
 }
